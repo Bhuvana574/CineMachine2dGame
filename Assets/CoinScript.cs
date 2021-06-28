@@ -7,11 +7,11 @@ public class CoinScript : MonoBehaviour
 {
     public Text scoreText;
     // Start is called before the first frame update
-    public int score = 50;
+    public int score = 0;
     public void IncrementScore()
     {
 
-        score --;
+        score=score+50;
         scoreText.text = "Score:" + score;
 
     }
