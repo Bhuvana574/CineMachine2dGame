@@ -5,13 +5,15 @@ using UnityEngine.UI;
 
 public class CoinScript : MonoBehaviour
 {
-    public Text ScoreText;
-    public int score = 0;
+    public Text scoreText;
+    // Start is called before the first frame update
+    public int score = 50;
     public void IncrementScore()
     {
-        score++;
-        ScoreText.text = "Score: " + score;
-        Destroy(gameObject);
-        print(score);
+
+        score --;
+        scoreText.text = "Score:" + score;
+
     }
+
 }
