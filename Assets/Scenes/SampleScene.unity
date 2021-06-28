@@ -429,7 +429,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 0.7830189, g: 0.15143289, b: 0.15143289, a: 1}
+  m_Color: {r: 0.78431374, g: 0.15294117, b: 0.5470288, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -603,8 +603,6 @@ MonoBehaviour:
   playerspeed: 10
   playerjumpForce: 10
   playerRadius: 0.5
-  ScoreText: {fileID: 1108124083}
-  score: 50
   isGrounded: 1
   layermask:
     serializedVersion: 2
@@ -965,7 +963,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 0.8396226, g: 0.06732824, b: 0.06732824, a: 1}
+  m_Color: {r: 0.8392157, g: 0.06666664, b: 0.5595209, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1074,7 +1072,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 0.9150943, g: 0.13381095, b: 0.13381095, a: 1}
+  m_Color: {r: 0.9137255, g: 0.13333331, b: 0.6622386, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1149,7 +1147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 1108124083}
-  score: 0
+  score: 100
 --- !u!1 &454715726
 GameObject:
   m_ObjectHideFlags: 0
@@ -1207,7 +1205,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
   m_Color: {r: 0.90846246, g: 0.9433962, b: 0.06674972, a: 1}
   m_FlipX: 0
@@ -2033,7 +2031,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0
+  m_Text: 
 --- !u!222 &1108124084
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2583,7 +2581,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 0.735849, g: 0.079832695, b: 0.079832695, a: 1}
+  m_Color: {r: 0.7372549, g: 0.07843137, b: 0.58432907, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
